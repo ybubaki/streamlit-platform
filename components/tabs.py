@@ -4,6 +4,8 @@ from .summary_tab import summary_view
 from .financial_statement_tab import financial_statement_view
 from .conpany_info_tab import company_info_view
 
+
+# This is the main tabs for page navigation
 def main_tabs():
     company_info_tab, trade_tab, pep_tab, crime_tab= st.tabs(["Company Info", "Trade", "PEP", "Crime"])
 
